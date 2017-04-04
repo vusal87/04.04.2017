@@ -65,4 +65,28 @@ cVb- bu veziyyetde ilk gosterilende 1-i string tipinde taniyacag ikinci gosteril
 yalniz - iwaresi olanda mecburi olarag cixma emeliyytibi heyata kecirir
 8.Explain the concept of unobtrusive Javascript?
 cVb-umumiyyetle html,css,js hamsi ayri yazilmalidi oxunurlug baximinnnan neyise qisa vaxtda tapib hell etmek baximinnan ancag inline yazlan stil deyiwikliyi daha suretlidi css de verilen deyiwiklik bele htnlde verilen deyiwikliye tesir elemir cunki htmlde verilen stuyle esas goturulur.
-9.
+9.Deyisen verilibse ama deyer verilmiyibse undefineddi.null vermesi hec bir deyerinin olmamasi hetda yer tutmamasi menasina gelir. 
+10.if/else yegane wert operatorudu
+11.NaN operatoru iki deyiwenin riyazi hesablamasini yerine yetire bilmeyende cixir eyer hasil alina bilmirse o zaman NaN cavabi verir
+12.this globalda windows u cagirir misalfunction f1(){
+  return this;
+}
+
+f1() === window; // global obyekt
+yox eyer bir obyektin metodu kimi cagirilirsa o zaman  this hemen obyekt kimi gosterilir misal
+var o = {
+  prop: 37,
+  f: function() {
+    return this.prop;
+  }
+};
+
+console.log(o.f()); // logs 37
+13.undefined JavaScriptde-de  data tipidir.Not defined errordu
+14.	JS Hoisting teyinatlarin yuxariya dasinmasidir.
+15.	OOP ve Functional Programming paradigm
+--
+--
+--
+24.What is asynchronous programming, and why is it important in JavaScript?
+cVb-javaScript ozu asinxrondu cunki eyni anda 2 ve daha cox emirleri yerine yetirmir siralya edir sinxxron ise eksine
